@@ -1,0 +1,64 @@
+<div class="container">  
+        <div align="center" class="col-12" style="color:lightskyblue;">  
+            <h2>Manage Keywords for Document</h2> 
+        </div>    
+        <div align="center" class="col-12" style="color:lightskyblue;">  
+            <div class="col-md-4">
+                <span>
+                    Search for a keyword:
+                </span><input type="text" placeholder="Enter Keyword for filter result" [(ngModel)]="searchedKeyword" (ngModelChange)="filterResults">
+              </div>
+        </div>    
+       <div class="col-12">
+        <form (ngOnLoad)="ngOnInit()" [formGroup]="docKWForm" (ngSubmit)="addKW()">            
+            <div *ngIf="editMode" >
+                <div class="col-3"></div>
+                <div class="col-4" align="left">
+                <div>            
+                    <label class="label" >Promotional Document Title: </label>
+                    <label name="pdName" formControlName="PromoDocName">{{docKWForm.get('PromoDocName').value}}</label>
+                </div>                   
+                <div>         
+                    <label class="label" >For SKU: </label>            
+                    <label name="sk" formControlName="SKU">{{docKWForm.get('SKU').value}}</label>
+                    </div>
+                 <div>  
+                     <label class="label" >Keywords for SKU: </label>                   
+                        <input name="kw" formControlName="Keywords" maxlength="2000">                       
+                        <span *ngIf="!docKWForm.get('Keywords').value && docKWForm.get('Keywords').touched"></span>                       
+                    </div> 
+                  <div>
+                      <div><label name="pdId" formControlName="PromoDocId"></label><label name="skId" formControlName="SKUId"></label></div>
+                      <button type="submit" [disabled]="!docKWForm.valid">Submit</button>      
+                      <button type="reset"  (click)="resetForm()">Cancel</button>  
+                   
+                      <p *ngIf="dataSaved" style="color:rgb(0, 128, 0);font-size:20px;font-weight:bold" Class="success" align="left">  
+                        {{message}}  
+                      </p>  
+                    </div>  
+                </div><div class="col-3"></div>
+                </div>
+          <table class="table" align="center">  
+              <tr ngclass="btn-primary">  
+                <th class="tbl2">Promotional Document Title</th>  
+                <th class="tbl2">SKU </th>  
+                <th class="tbl2">Keywords </th>  
+                <th class="tbl2">Edit</th>  
+                <th class="tbl2">Delete</th>  
+              </tr>  
+              <tr *ngFor="let docKeyWord of docKeyWordsList | searchKeyWords: searchedKeyword">  
+                <td class="tbl2">{{docKeyWord.PromoDocName}}</td>  
+                <td class="tbl2">{{docKeyWord.SKU}}</td>  
+                <td class="tbl2">{{docKeyWord.Keywords}}</td>  
+                <td class="tbl2">  
+                  <button type="button" class="btn btn-info" (click)="loadKeyWordsToEdit(docKeyWord.PromoDocId)">Edit</button>  
+                </td>  
+                <td class="tbl2">  
+                  <button type="button" class="btn btn-danger" (click)="DeleteKeyword(docKeyWord)">Delete</button>  
+                </td>  
+              </tr>  
+      
+            </table>  
+        </form>  
+       
+    </div>  
