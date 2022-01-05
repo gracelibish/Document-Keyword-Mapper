@@ -1,0 +1,12 @@
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\PromoDocKeyWordEF.dll.config
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\PromoDocKeyWordEF.dll
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\PromoDocKeyWordEF.pdb
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\EntityFramework.dll
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\EntityFramework.xml
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\obj\Debug\PromoDocKeyWordEF.csprojAssemblyReference.cache
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\obj\Debug\PromoDocKeyWordEF.csproj.CoreCompileInputs.cache
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\obj\Debug\PromoDocKeyWordEF.csproj.CopyComplete
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\obj\Debug\PromoDocKeyWordEF.dll
+C:\Users\248747\source\repos\PromoDocKeyWord\PromoDocKeyWordEF\obj\Debug\PromoDocKeyWordEF.pdb

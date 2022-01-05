@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoDocKeyWord", "PromoDocKeyWord\PromoDocKeyWord.csproj", "{51B4070B-7E73-482E-9299-CA62174492CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoDocKeyWordEF", "PromoDocKeyWordEF\PromoDocKeyWordEF.csproj", "{BF1F8CF8-8756-4EED-9128-AF6C4B6C60CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51B4070B-7E73-482E-9299-CA62174492CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B4070B-7E73-482E-9299-CA62174492CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B4070B-7E73-482E-9299-CA62174492CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B4070B-7E73-482E-9299-CA62174492CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1F8CF8-8756-4EED-9128-AF6C4B6C60CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1F8CF8-8756-4EED-9128-AF6C4B6C60CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1F8CF8-8756-4EED-9128-AF6C4B6C60CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1F8CF8-8756-4EED-9128-AF6C4B6C60CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D0A4BFF-1EA0-44A3-8BC7-F7AF98353F97}
+	EndGlobalSection
+EndGlobal
