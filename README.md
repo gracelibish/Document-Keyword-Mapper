@@ -4,6 +4,7 @@
 1. SampleDB.sql contains the SQL scripts to create the backend DB, table and data. Connect to the local SQLExpress and run the script.
 
 2. PromoDocKeyWord is the API project. Please load the PromoDocKeyWord.sln in Visual Studio (2017 - my version). 
+
     a. In the web.config, please change the connection string appropriately for your database. 
   <connectionStrings>
     <add name="SampleDBModelConnStr" connectionString="data source=**DEV-NT-GRACE\SQLEXPRESS**;initial catalog=SampleDB;user id=sa;password=*********;MultipleActiveResultSets=True;App=EntityFramework;Persist Security Info=True" providerName="System.Data.SqlClient" />
